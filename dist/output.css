@@ -519,13 +519,14 @@ span{
   font-weight: 700;
 }
 
-*{
+*:not(h1){
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
-section, a, div{
+section, a, div, p{
   overflow: hidden;
 }
 
@@ -536,6 +537,7 @@ a{
 a:hover{
   --tw-text-opacity: 1;
   color: rgb(3 105 161 / var(--tw-text-opacity));
+  transform: scale(1.1);
 }
 
 .flex {
@@ -568,6 +570,10 @@ a:hover{
 
 .h-\[15vh\] {
   height: 15vh;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
 }
 
 .w-screen {
@@ -629,6 +635,10 @@ a:hover{
   overflow: hidden;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -657,6 +667,11 @@ a:hover{
 
 .text-center {
   text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-lg {
@@ -690,5 +705,40 @@ a:hover{
 @media (min-width: 640px) {
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:h-\[90vh\] {
+    height: 90vh;
+  }
+
+  .sm\:h-\[80\%\] {
+    height: 80%;
+  }
+
+  .sm\:w-\[50vw\] {
+    width: 50vw;
+  }
+
+  .sm\:w-\[30vw\] {
+    width: 30vw;
+  }
+
+  .sm\:gap-14 {
+    gap: 3.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
