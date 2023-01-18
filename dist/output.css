@@ -737,12 +737,20 @@ a:hover{
     height: 30vh;
   }
 
+  .sm\:h-\[25vh\] {
+    height: 25vh;
+  }
+
   .sm\:w-\[50vw\] {
     width: 50vw;
   }
 
   .sm\:w-\[30vw\] {
     width: 30vw;
+  }
+
+  .sm\:w-\[25vw\] {
+    width: 25vw;
   }
 
   .sm\:flex-row {
