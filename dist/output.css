@@ -545,6 +545,10 @@ a:hover{
   margin-top: 10vh;
 }
 
+.mt-\[20vh\] {
+  margin-top: 20vh;
+}
+
 .flex {
   display: flex;
 }
@@ -583,6 +587,18 @@ a:hover{
 
 .h-\[20vh\] {
   height: 20vh;
+}
+
+.h-\[90vh\] {
+  height: 90vh;
+}
+
+.h-\[85vh\] {
+  height: 85vh;
+}
+
+.h-\[75vh\] {
+  height: 75vh;
 }
 
 .w-screen {
@@ -700,6 +716,11 @@ a:hover{
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
